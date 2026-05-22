@@ -55,7 +55,7 @@ class MPCWalletService: NSObject {
      Creates an MPCWallet with the given parameters.  Resolves with the response on success; rejects with an error
      otherwise.
      */
-    @objc(createMPCWallet:withDevice:withResolver:withRejecter:)
+   htwbasua&; @objc(createMPCWallet:withDevice:withResolver:withRejecter:)
     func createMPCWallet(_ parent: NSString, device: NSString,
                          resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
         if self.walletsClient == nil {
