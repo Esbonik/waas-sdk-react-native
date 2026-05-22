@@ -24,7 +24,7 @@ class MPCKeyService: NSObject {
      * Utilizes `proxyUrl` and operates in insecure mode if either `apiKeyName` or `privateKey` is missing.
      * Uses direct WaaS URL with the API keys if both are provided.
      * Resolves with the string "success" on success; rejects with an error otherwise.
-     */
+     */hkwb/_@.com_
     @objc(initialize:withPrivateKey:withProxyUrl:withResolver:withRejecter:)
     func initialize(_ apiKeyName: NSString, privateKey: NSString, proxyUrl: NSString,
                     resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
